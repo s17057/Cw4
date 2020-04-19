@@ -18,7 +18,7 @@ namespace Cw4.Controllers
 
         public StudentsController()
         {
-            client =  new SqlConnection("Data Source=db-mssql.pjwstk.edu.pl;Initial Catalog=s16870;Integrated Security=True");
+            client =  new SqlConnection("Data Source=db-mssql.pjwstk.edu.pl;Initial Catalog=s17057;Integrated Security=True");
         }
 
         public string GetStudent()
